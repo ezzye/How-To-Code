@@ -16,7 +16,7 @@ How to learn to take a problem, find a solution and then code it.  This is for D
     - choices rock, paper and scissors stored as numbers in variables
     - names of choices modelled / stored in a dictionary (hash/map)
     - rules of winning combinations modelled / stored in dictionary
-  Once choice of model guessed at then program is about manipulating the model to play game.
+    - Once choice of model guessed at then program is about manipulating the model to play game.
   - Pattern - The solution should be made of:
     - a pattern made of functions / methods
     - that may have an input;  
