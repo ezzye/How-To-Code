@@ -47,7 +47,7 @@ You can use a package such as radish http://radish-bdd.io/ (similar to cucumber 
       - This fails as no code written
       - Write code:
         > def print_welcome(greeting):
-        > > print greeting
+        >   print greeting
       - Test now passes (green)
       - Refactor to tidy up if necessary
   - Continue writing tests and code for each function until code works as expected_output
