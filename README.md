@@ -46,8 +46,8 @@ You can use a package such as radish http://radish-bdd.io/ (similar to cucumber 
       - Then tested that only called once, "assert my_mock.print_test.call_count == 1"
       - This fails as no code written
       - Write code:
-        > def print_welcome(greeting):
-        > print greeting
+        - def print_welcome(greeting):
+        - print greeting
       - Test now passes (green)
       - Refactor to tidy up if necessary
   - Continue writing tests and code for each function until code works as expected_output
