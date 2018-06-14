@@ -51,4 +51,4 @@ You can use a package such as radish http://radish-bdd.io/ (similar to cucumber 
       - Test now passes (green)
       - Refactor to tidy up if necessary
   - Continue writing tests and code for each function until code works as expected_output
-  - The BDD tests should now pass. Refactor code as appropriate while ensuing BDD and TDD tests continue to pass.
+* The BDD tests should now pass. Refactor code as appropriate while ensuing BDD and TDD tests continue to pass.
