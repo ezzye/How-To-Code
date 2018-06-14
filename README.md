@@ -20,9 +20,8 @@ How to learn to take a problem, find a solution and then code it.  This is for D
   - Pattern - The solution should be made of:
     - a pattern made of functions / methods
     - that may have an input;  
-    - a state (value) and
-    - some behaviour to get
-    - state(return value) or output.
+    - some behaviour;
+    - a state(return value) or output.
     - The patterns often have to be guessed (googled) at using trial and error or are known from experience.
   - Tests - the important bit.  You don't need a flash of inspiration to code solution you just have to build some scaffolding and this will guide you through writing the code to get the desired result.
     - First the big scaffolding to focus your mind on the problem - this is called BDD (Behaviour Driven Development).
