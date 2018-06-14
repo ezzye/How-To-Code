@@ -11,22 +11,22 @@ How to learn to take a problem, find a solution and then code it.  This is for D
   - learnpython https://www.learnpython.org/
   - codecombat https://codecombat.com/play
   - And to practice your new coding knowledge - codewars https://www.codewars.com/dashboard
-5. Now three step to programming a solution (Model, Pattern, Tests):
-  1. Model - Think how you are going to store and model the stuff you are working on.  For example constants in rockPaperScissors:
+* Now three step to programming a solution (Model, Pattern, Tests):
+  - Model - Think how you are going to store and model the stuff you are working on.  For example constants in rockPaperScissors:
     - choices rock, paper and scissors stored as numbers in variables
     - names of choices modelled / stored in a dictionary (hash/map)
     - rules of winning combinations modelled / stored in dictionary
   Once choice of model guessed at then program is about manipulating the model to play game.
-  2. Pattern - The solution should be made of:
+  - Pattern - The solution should be made of:
     1. a pattern made of functions / methods
     2. that may have an input;  
     3. a state (value) and
     4. some behaviour to get
     5. state(return value) or output.
     6. The patterns often have to be guessed (googled) at using trial and error or are known from experience.
-6. And now the important bit.  You don't need a flash of inspiration to code solution you just have to build some scaffolding and this will guide you through writing the code to get the desired result.
-  - First the big scaffolding to focus your mind on the problem - this is called BDD (Behaviour Driven Development).
-  - Second the smaller scaffolding to focus your mind on coding one step / function / method / unit at a time - this is called TDD (Test Driven Development).
+  - Tests - the important bit.  You don't need a flash of inspiration to code solution you just have to build some scaffolding and this will guide you through writing the code to get the desired result.
+    - First the big scaffolding to focus your mind on the problem - this is called BDD (Behaviour Driven Development).
+    - Second the smaller scaffolding to focus your mind on coding one step / function / method / unit at a time - this is called TDD (Test Driven Development).
 7. BDD is working from the outside of the solution towards the inside.  You don't focus on how to code the solution but instead what features (what does it do) the solution will have.  For example for rockPaperScissorsGame.feature :
   1. To run at command line using "python rockPaperScissors.py"
   2. Use raw_input command to get moves (as numbers) and ask if should carry on (y or n)
