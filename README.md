@@ -7,10 +7,10 @@ How to learn to take a problem, find a solution and then code it.  This is for D
 2. NEVER, NEVER EVER copy and paste code ALWAYS type it out so your BRAIN and FINGERS remember it.
 3. There is "NO MAGIC" computers do what and only what you instruct them to do.
 4. Learn how to write basic scripts in Python from an interactive learning site such as:
-  - 1. codeacademy https://www.codecademy.com/learn/learn-python
-  - 2. learnpython https://www.learnpython.org/
-  - 3. codecombat https://codecombat.com/play
-  - 4. And to practice your new coding knowledge - codewars https://www.codewars.com/dashboard
+  + 1. codeacademy https://www.codecademy.com/learn/learn-python
+  + 2. learnpython https://www.learnpython.org/
+  + 3. codecombat https://codecombat.com/play
+  + 4. And to practice your new coding knowledge - codewars https://www.codewars.com/dashboard
 5. Now three step to programming a solution (Model, Pattern, Tests):
   1. Model - Think how you are going to store and model the stuff you are working on.  For example constants in rockPaperScissors:
     - choices rock, paper and scissors stored as numbers in variables
