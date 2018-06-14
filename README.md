@@ -38,11 +38,11 @@ How to learn to take a problem, find a solution and then code it.  This is for D
   - Pattern is an "Infinite While Loop" that calls game function until user doesn't want to continue.
   - From outside in we start with "start" function that takes as parameters needed functions so, start(greeting, print_welcome, game_function, scores_function, score)
   - Write tests for this function.  There are two types of test:
-    - State - tests the output of unit e.g. test_print_welcome() when greeting "" input as parameter then it is expected to print "Testing time to play\n" to standard out (command line).
+    - State - tests the output of unit e.g. test_print_welcome() when greeting "Testing time to play" input as a parameter then it is expected to print "Testing time to play\n" to standard out (command line).
     - Behaviour - test what the code inside unit does.  This is usually uses mocks which are pre-written functions that remember how they were used. You can test this use and so test the behaviour of the code e.g. my_mock.print_test in test_rock.py:
       - Write failing test (red)
       - Used "my_mock.print_test" in place of print_function in "start"
-      - Then tested that only called once, "assert my_mock.print_test.call_count == 1"
+      - Then test that only called once, "assert my_mock.print_test.call_count == 1"
       - This fails as no code written
       - Write code:
         - def print_welcome(greeting):
